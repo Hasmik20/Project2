@@ -115,7 +115,7 @@ header{
     position: fixed;
     top: 0rem;
     width: 100%;
-    z-index: 10;
+    z-index: 1;
     background-color: thistle;
 }
 .main-name{
@@ -161,7 +161,9 @@ nav ul{
 .clear-left{
     clear:left}
 /* footer */
-
+footer{
+    background-color: thistle;
+}
 .footer-title {
     float: left;  
     font-size: 1rem; 
@@ -188,13 +190,13 @@ footer nav {
 @media (min-width: 1024px){
 /* header/banner */
 
-header{
+/* header{
     position: fixed;
     top: 0rem;
     width: 100%;
-    z-index: 10;
+    z-index: 1;
     background-color: thistle;
-}
+} */
 .main-name{
     font-size: 1.3rem; 
     float: left;   
