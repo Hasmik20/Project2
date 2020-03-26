@@ -190,13 +190,7 @@ footer nav {
 @media (min-width: 1024px){
 /* header/banner */
 
-/* header{
-    position: fixed;
-    top: 0rem;
-    width: 100%;
-    z-index: 1;
-    background-color: thistle;
-} */
+
 .main-name{
     font-size: 1.3rem; 
     float: left;   
