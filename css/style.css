@@ -9,7 +9,7 @@ body{
     background-color: rgb(238, 245, 245);
 }
 p,a,h1,h2,h3,span{
-    color: rgb(95, 158, 160);
+    color: rgb(57, 63, 63);
 }
 h2,h3 {
     text-align: center;
@@ -150,12 +150,12 @@ nav ul{
 }
 /* main */
 .container{
-    width: 85%;
+    width: 80%;
 }
 .col{
     float: left;
-    width: 45%;
-    margin:0.5rem 0.8rem;
+    width: 48%;
+    padding:0.5rem;
 }
 /* aside */
 .clear-left{
@@ -167,6 +167,7 @@ footer{
 .footer-title {
     float: left;  
     font-size: 1rem; 
+    color: rgb(95, 158, 160);
 }
 .footer-top{
    display: none;
@@ -177,7 +178,7 @@ footer nav {
     float: right;
 }
  footer nav ul li{
-    padding-right: 0 0 0 .8rem; 
+    padding-right:.8rem; 
     display:inline-block; 
 }
  footer nav ul li a {
@@ -208,6 +209,13 @@ nav ul{
 }
 
 /* main */
+
+body {background:linear-gradient(rgb(151, 140, 151), transparent 90%),
+                    linear-gradient(0deg,white, transparent),
+                 rgb(133, 93, 133) url('../images/bg-imgSm.jpg') no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
 .container{
     width: 95%;
     max-width: 1150px;
@@ -215,8 +223,8 @@ nav ul{
 }
 .col{
     float: left;
-    width: 30%;
-    padding:0.8rem 0.5rem 0.8rem 0;
+    width: 32%;
+    padding:0.8rem 1rem 0.8rem 0;
 }
 aside p{
     text-align: center;
