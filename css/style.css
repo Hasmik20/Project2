@@ -31,7 +31,7 @@ h2,h3 {
 /* header/banner */
 header
 {
-    background-color:rgb(56, 133, 136); 
+    background-color: thistle;
 }
 .main-name{
     margin-top: 0;
@@ -62,7 +62,7 @@ ul li{
     display:block;
     text-decoration: none;
     text-transform: uppercase;
-    background-color:rgb(30, 111, 114); 
+    background-color: rgb(184, 129, 184);
 }
 img{
     width: 100%;
@@ -87,7 +87,7 @@ footer{
     border-top: 1px solid rgb(230, 220, 220);
     padding: 0.8rem 1rem;
     color: rgb(95, 158, 160);
-    background-color:rgb(56, 133, 136);
+    background-color: thistle;
 }
 .footer-title {
     float: left;   
@@ -210,7 +210,7 @@ nav ul{
 
 /* main */
 
-body {background:linear-gradient(rgb(151, 140, 151), transparent 90%),
+body {background:linear-gradient(rgb(151, 140, 151), transparent 70%),
                     linear-gradient(0deg,white, transparent),
                  rgb(133, 93, 133) url('../images/bg-imgSm.jpg') no-repeat center;
   background-size: cover;
